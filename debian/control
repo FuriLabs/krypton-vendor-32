@@ -1,0 +1,17 @@
+Source: krypton-vendor-32
+Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
+Section: misc
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               curl,
+               tar,
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/furilabs/krypton-vendor-32
+Vcs-Git: https://github.com/furilabs/krypton-vendor-32.git
+
+Package: krypton-vendor-32
+Architecture: arm64
+Depends: ${misc:Depends}
+Provides: krypton-vendor-image
+Description: Vendor Image
+ This package provides a working vendor image for Krypton

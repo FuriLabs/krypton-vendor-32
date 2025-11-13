@@ -12,6 +12,7 @@ Vcs-Git: https://github.com/furilabs/krypton-vendor-32.git
 Package: krypton-vendor-32
 Architecture: arm64
 Depends: ${misc:Depends}
-Provides: krypton-vendor-image
+Provides: krypton-vendor-image, device-vendor-image
+Conflicts: device-vendor-image
 Description: Vendor Image
  This package provides a working vendor image for Krypton
